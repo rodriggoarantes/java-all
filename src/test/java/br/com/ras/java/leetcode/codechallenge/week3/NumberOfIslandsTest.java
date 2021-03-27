@@ -1,7 +1,7 @@
 package br.com.ras.java.leetcode.codechallenge.week3;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -10,8 +10,8 @@ public class NumberOfIslandsTest {
 
     private NumberOfIslands numberOfIslands;
 
-    @Before
-    public void setup() {
+    @BeforeEach
+    void setup() {
         numberOfIslands = new NumberOfIslands();
     }
 

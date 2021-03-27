@@ -1,7 +1,7 @@
 package br.com.ras.java.hackerrank;
 
-import org.junit.Test;
-import org.junit.Assert;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ public class DiagonalDiferenceTest {
                                    List.of(4, 5, 6),
                                    List.of(7, 8, 9));
 
-        Assert.assertEquals(0, DiagonalDiference.result(matriz));
+        assertEquals(0, DiagonalDiference.result(matriz));
     }
 
     @Test
@@ -23,6 +23,6 @@ public class DiagonalDiferenceTest {
                                    List.of(4, 5, 6),
                                    List.of(10, 8, -12));
 
-        Assert.assertEquals(15, DiagonalDiference.result(matriz));
+        assertEquals(15, DiagonalDiference.result(matriz));
     }
 }

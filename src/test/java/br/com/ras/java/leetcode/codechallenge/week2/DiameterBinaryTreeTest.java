@@ -2,7 +2,8 @@ package br.com.ras.java.leetcode.codechallenge.week2;
 
 import br.com.ras.java.leetcode.codechallenge.shared.BinaryTree;
 import br.com.ras.java.leetcode.codechallenge.shared.TreeNode;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;

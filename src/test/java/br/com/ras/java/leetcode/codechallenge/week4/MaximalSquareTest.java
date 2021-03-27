@@ -2,7 +2,8 @@ package br.com.ras.java.leetcode.codechallenge.week4;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MaximalSquareTest {
     private final MaximalSquare ms = new MaximalSquare();

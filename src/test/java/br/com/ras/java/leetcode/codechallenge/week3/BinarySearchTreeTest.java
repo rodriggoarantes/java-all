@@ -1,7 +1,8 @@
 package br.com.ras.java.leetcode.codechallenge.week3;
 
 import br.com.ras.java.leetcode.codechallenge.shared.TreeNode;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;

@@ -1,7 +1,7 @@
 package br.com.ras.java.hackerrank;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TimeConversionTest {
 
@@ -11,7 +11,7 @@ public class TimeConversionTest {
 
         final var result = TimeConversion.solution(s);
 
-        Assert.assertEquals("00:00:00", result);
+        assertEquals("00:00:00", result);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class TimeConversionTest {
 
         final var result = TimeConversion.solution(s);
 
-        Assert.assertEquals("12:00:00", result);
+        assertEquals("12:00:00", result);
     }
 
     @Test
@@ -29,7 +29,7 @@ public class TimeConversionTest {
 
         final var result = TimeConversion.solution(s);
 
-        Assert.assertEquals("17:00:00", result);
+        assertEquals("17:00:00", result);
     }
 
     @Test
@@ -38,6 +38,6 @@ public class TimeConversionTest {
 
         final var result = TimeConversion.solution(s);
 
-        Assert.assertEquals("05:00:00", result);
+        assertEquals("05:00:00", result);
     }
 }

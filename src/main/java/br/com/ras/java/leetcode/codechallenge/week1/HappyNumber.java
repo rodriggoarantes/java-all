@@ -71,10 +71,10 @@ public class HappyNumber {
           slow = bestSq(slow);
           fast = bestSq(bestSq(fast));
       } while (slow!=fast);
-      return slow == 1? true: false;
+      return slow == 1;
   }
   
-  private final int bestSq(int n) {
+  private int bestSq(int n) {
       int num = 0;
       while(n != 0) {
           num = num + (n%10) * (n%10);

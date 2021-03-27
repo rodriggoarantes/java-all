@@ -1,6 +1,6 @@
 package br.com.ras.java.leetcode.codechallenge.week1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -8,11 +8,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class HappyNumberTest {
   
   private final HappyNumber happyNumber = new HappyNumber();
-  
-  @Test
-  public void test_mysolution() {
-    assertThat(happyNumber.solution(19), equalTo(true));
-  }
   
   @Test
   public void test_mysolution_infiniti() {
