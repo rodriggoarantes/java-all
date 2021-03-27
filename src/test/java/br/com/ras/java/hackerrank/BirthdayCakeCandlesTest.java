@@ -1,4 +1,4 @@
-package br.com.ras.java.hackerhank;
+package br.com.ras.java.hackerrank;
 
 import org.junit.Test;
 
