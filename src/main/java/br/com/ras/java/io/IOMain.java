@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+@Sl4j
 public class IOMain extends LogUtil {
     public static void main(String[] args) throws Exception {
         reader();
@@ -53,5 +54,20 @@ public class IOMain extends LogUtil {
         public TestException(String message) {
             super(message);
         }
+    }
+    
+    private static void getHomePath() {
+        log.info(System.getProperty("user.dir"));
+
+		log.info(new File("").getAbsolutePath());
+
+		log.info(FileSystems.getDefault()
+				.getPath("")
+				.toAbsolutePath()
+				.toString());
+		
+		log.info(Paths.get("")
+				.toAbsolutePath()
+				.toString());
     }
 }
