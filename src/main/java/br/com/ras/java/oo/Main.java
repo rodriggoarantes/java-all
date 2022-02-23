@@ -1,4 +1,4 @@
-package br.com.ras.java.tests;
+package br.com.ras.java.oo;
 
 @SuppressWarnings("all")
 public class Main {

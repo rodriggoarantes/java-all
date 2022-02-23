@@ -191,8 +191,13 @@ buildNumber.properties
 .ionide
 
 # End of https://www.gitignore.io/api/java,maven,eclipse,intellij
+
+#####################################################
+
 node_modules/
 .vscode
 dist/
 /java-all.iml
 .classpath
+
+tmp/
