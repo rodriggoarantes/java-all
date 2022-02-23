@@ -1,11 +1,10 @@
 package br.com.ras.java.leetcode.codechallenge.week1;
 
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+
+import org.junit.jupiter.api.Test;
 
 public class MoveZeroesTest {
   

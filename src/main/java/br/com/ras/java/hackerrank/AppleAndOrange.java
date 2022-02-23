@@ -2,6 +2,7 @@ package br.com.ras.java.hackerrank;
 
 public class AppleAndOrange {
 
+    @SuppressWarnings("all")
     private void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
         final var macas = solution(s, t, a, apples);
         final var laranjas = solution(s, t, b, oranges);

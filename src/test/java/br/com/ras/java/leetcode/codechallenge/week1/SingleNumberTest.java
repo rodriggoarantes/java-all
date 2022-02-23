@@ -1,11 +1,9 @@
 package br.com.ras.java.leetcode.codechallenge.week1;
 
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
+
+import org.junit.jupiter.api.Test;
 
 public class SingleNumberTest {
   
@@ -31,17 +29,12 @@ public class SingleNumberTest {
     
     Devemos considerar:
     If we take XOR of zero and some bit, it will return that bit = se compararmos um bit com 0 é retornado ele mesmo
-    If we take XOR of two same bits, it will return 0 = se compararmos dois bits do mesmo valor ele retorna 0
-    
-    então:
-    
-    [2,2,1] -> [10,10,01]
-    0^2 -> 00^10=10
-    2^2 -> 10^10=00
-    0^1 -> 00^01=01
-    resultado = 1
-    
-    [4,1,2,1,2] -> [11,01,10,01,10]
+    If we take XOR of two same bits, it<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.22</version>
+    <scope>provided</scope>
+</dependency>
     0^4 -> 00^11=11
     4^1 -> 11^01=10 (1+0=1 e 1+1=0)
     2^2 -> 10^10=00

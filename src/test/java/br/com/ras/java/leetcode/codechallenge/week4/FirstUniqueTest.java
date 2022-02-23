@@ -1,10 +1,9 @@
 package br.com.ras.java.leetcode.codechallenge.week4;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.MatcherAssert.*;
+import org.junit.jupiter.api.Test;
 
 public class FirstUniqueTest {
 

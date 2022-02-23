@@ -1,6 +1,5 @@
 package br.com.ras.java.tests;
 
-import java.util.Collection;
 import java.util.List;
 
 public class A {

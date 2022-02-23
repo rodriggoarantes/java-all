@@ -48,7 +48,7 @@ public class BackspaceStringCompare {
     }
 
     public String empilharLetras(String texto) {
-        final Stack<Character> pilha = new Stack();
+        final Stack<Character> pilha = new Stack<>();
         for (char c: texto.toCharArray()) {
             if (c != '#') {
                 pilha.push(c);
